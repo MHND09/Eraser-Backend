@@ -1,0 +1,6 @@
+rpi-lgpio # comment this line if not using Raspberry Pi
+pygame
+supabase
+paho-mqtt
+PyDrive2
+schedule

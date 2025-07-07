@@ -1,0 +1,224 @@
+2025-06-02 18:58:05,136 - MainService - INFO - Initializing Smart Whiteboard Eraser Service
+2025-06-02 18:58:05,137 - Camera - INFO - Checking FSWebcam availability...
+2025-06-02 18:58:05,139 - Camera - INFO - FSWebcam binary found
+2025-06-02 18:58:05,167 - Camera - ERROR - FSWebcam is not working correctly
+2025-06-02 18:58:05,168 - ImageCapture - ERROR - Failed to initialize camera
+2025-06-02 18:58:05,170 - MotorControl - INFO - GPIO module loaded successfully for motor control
+2025-06-02 18:58:05,170 - MQTTHandler - INFO - Setting up MQTT client
+2025-06-02 18:58:05,263 - ButtonHandler - INFO - GPIO module loaded successfully
+2025-06-02 18:58:05,264 - MainService - INFO - Starting Smart Whiteboard Eraser Service
+2025-06-02 18:58:05,265 - MainService - INFO - Log publisher started as a background process
+2025-06-02 18:58:05,543 - SupabaseHandler - INFO - Supabase handler started
+2025-06-02 18:58:05,553 - QueueUploader - INFO - Successfully authenticated with Google Drive
+2025-06-02 18:58:05,554 - QueueUploader - INFO - Upload process started
+2025-06-02 18:58:06,049 - MQTTHandler - INFO - MQTT client connected and started
+2025-06-02 18:58:06,050 - ButtonHandler - ERROR - Error setting up GPIO pins: Failed to add edge detection
+2025-06-02 18:58:06,050 - MotorControl - INFO - GPIO setup completed for motor control
+2025-06-02 18:58:06,050 - MotorControl - INFO - Motor control started
+2025-06-02 18:58:06,173 - MQTTHandler - INFO - MQTT client connected with code Success
+2025-06-02 18:58:06,174 - MQTTHandler - INFO - Published board status: online
+2025-06-02 18:58:06,175 - MQTTHandler - INFO - Subscribed to command topic: eraser_1/command
+2025-06-02 19:03:23,389 - MainService - INFO - Handling command: capture_erase
+2025-06-02 19:03:23,389 - ImageCapture - ERROR - Camera not initialized
+2025-06-02 19:03:23,390 - MotorControl - INFO - Starting whiteboard erasing process
+2025-06-02 19:03:23,391 - MainService - INFO - Capture and erase command result: Failed to capture image, but erasing whiteboard
+2025-06-02 19:03:23,391 - MotorControl - INFO - Moving eraser forward
+2025-06-02 19:03:23,392 - MQTTHandler - INFO - Published response: Failed to capture image, but erasing whiteboard
+2025-06-02 19:03:34,040 - MotorControl - INFO - Moving eraser backward
+2025-06-02 19:03:44,189 - MotorControl - INFO - Whiteboard erasing completed
+2025-06-02 19:05:10,053 - MainService - INFO - Handling command: capture_erase
+2025-06-02 19:05:10,054 - ImageCapture - ERROR - Camera not initialized
+2025-06-02 19:05:10,056 - MotorControl - INFO - Starting whiteboard erasing process
+2025-06-02 19:05:10,056 - MainService - INFO - Capture and erase command result: Failed to capture image, but erasing whiteboard
+2025-06-02 19:05:10,057 - MotorControl - INFO - Moving eraser forward
+2025-06-02 19:05:10,059 - MQTTHandler - INFO - Published response: Failed to capture image, but erasing whiteboard
+2025-06-02 19:05:20,710 - MotorControl - INFO - Moving eraser backward
+2025-06-02 19:05:30,861 - MotorControl - INFO - Whiteboard erasing completed
+2025-06-02 19:06:21,035 - MainService - INFO - Handling command: capture_erase
+2025-06-02 19:06:21,037 - ImageCapture - ERROR - Camera not initialized
+2025-06-02 19:06:21,037 - MotorControl - INFO - Starting whiteboard erasing process
+2025-06-02 19:06:21,038 - MainService - INFO - Capture and erase command result: Failed to capture image, but erasing whiteboard
+2025-06-02 19:06:21,038 - MotorControl - INFO - Moving eraser forward
+2025-06-02 19:06:21,039 - MQTTHandler - INFO - Published response: Failed to capture image, but erasing whiteboard
+2025-06-02 19:06:31,690 - MotorControl - INFO - Moving eraser backward
+2025-06-02 19:06:41,839 - MotorControl - INFO - Whiteboard erasing completed
+2025-06-02 19:08:33,237 - MainService - INFO - Handling command: capture_erase
+2025-06-02 19:08:33,238 - ImageCapture - ERROR - Camera not initialized
+2025-06-02 19:08:33,240 - MotorControl - INFO - Starting whiteboard erasing process
+2025-06-02 19:08:33,240 - MainService - INFO - Capture and erase command result: Failed to capture image, but erasing whiteboard
+2025-06-02 19:08:33,241 - MotorControl - INFO - Moving eraser forward
+2025-06-02 19:08:33,243 - MQTTHandler - INFO - Published response: Failed to capture image, but erasing whiteboard
+2025-06-02 19:08:43,896 - MotorControl - INFO - Moving eraser backward
+2025-06-02 19:08:54,072 - MotorControl - INFO - Whiteboard erasing completed
+2025-06-02 19:10:00,673 - MainService - INFO - Handling command: capture_erase
+2025-06-02 19:10:00,675 - ImageCapture - ERROR - Camera not initialized
+2025-06-02 19:10:00,677 - MotorControl - INFO - Starting whiteboard erasing process
+2025-06-02 19:10:00,677 - MainService - INFO - Capture and erase command result: Failed to capture image, but erasing whiteboard
+2025-06-02 19:10:00,678 - MotorControl - INFO - Moving eraser forward
+2025-06-02 19:10:00,680 - MQTTHandler - INFO - Published response: Failed to capture image, but erasing whiteboard
+2025-06-02 19:10:11,351 - MotorControl - INFO - Moving eraser backward
+2025-06-02 19:10:21,502 - MotorControl - INFO - Whiteboard erasing completed
+2025-06-02 19:22:19,012 - QueueUploader - WARNING - No internet connection. Waiting...
+2025-06-03 10:04:58,903 - MainService - INFO - Initializing Smart Whiteboard Eraser Service
+2025-06-03 10:04:58,904 - SessionManager - INFO - Session manager initialized
+2025-06-03 10:04:58,904 - Camera - INFO - Checking FSWebcam availability...
+2025-06-03 10:04:58,907 - Camera - INFO - FSWebcam binary found
+2025-06-03 10:04:59,042 - Camera - ERROR - FSWebcam is not working correctly
+2025-06-03 10:04:59,043 - ImageCapture - ERROR - Failed to initialize camera
+2025-06-03 10:04:59,051 - MotorControl - INFO - GPIO module loaded successfully for motor control
+2025-06-03 10:04:59,052 - MQTTHandler - INFO - Setting up MQTT client
+2025-06-03 10:04:59,186 - ButtonHandler - INFO - GPIO module loaded successfully
+2025-06-03 10:04:59,186 - MainService - INFO - Starting Smart Whiteboard Eraser Service
+2025-06-03 10:04:59,187 - MainService - INFO - Log publisher started as a background process
+2025-06-03 10:04:59,564 - SupabaseHandler - INFO - Supabase handler started
+2025-06-03 10:04:59,567 - oauth2client.client - INFO - access_token is expired. Now: 2025-06-03 09:04:59.567883, token_expiry: 2025-06-02 18:35:14
+2025-06-03 10:04:59,569 - oauth2client.client - INFO - Refreshing access_token
+2025-06-03 10:05:00,016 - QueueUploader - INFO - Successfully authenticated with Google Drive
+2025-06-03 10:05:00,017 - QueueUploader - INFO - Upload process started
+2025-06-03 10:05:00,250 - MQTTHandler - INFO - MQTT client connected and started
+2025-06-03 10:05:00,251 - ButtonHandler - ERROR - Error setting up GPIO pins: Failed to add edge detection
+2025-06-03 10:05:00,252 - MotorControl - INFO - GPIO setup completed for motor control
+2025-06-03 10:05:00,253 - MotorControl - INFO - Motor control started
+2025-06-03 10:05:00,462 - MQTTHandler - INFO - MQTT client connected with code Success
+2025-06-03 10:05:00,463 - MQTTHandler - INFO - Published board status: online
+2025-06-03 10:05:00,464 - MQTTHandler - INFO - Subscribed to command topic: eraser_1/command
+2025-06-03 10:07:10,778 - MainService - INFO - Handling command: session
+2025-06-03 10:07:10,780 - SupabaseHandler - INFO -  Creating new session in Supabase
+2025-06-03 10:07:11,331 - httpx - INFO - HTTP Request: POST https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session "HTTP/2 201 Created"
+2025-06-03 10:07:11,341 - SupabaseHandler - INFO - Successfully created session in Supabase
+2025-06-03 10:07:11,341 - SessionManager - INFO - Session started with ID: 2
+2025-06-03 10:07:11,341 - MainService - INFO - Session command result: Session started with ID: 2
+2025-06-03 10:07:11,342 - MQTTHandler - INFO - Published response: Session started with ID: 2
+2025-06-03 10:07:31,307 - MainService - INFO - Handling command: session
+2025-06-03 10:07:31,308 - SupabaseHandler - INFO - Ending session in Supabase: 2
+2025-06-03 10:07:31,442 - httpx - INFO - HTTP Request: PATCH https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session?id=eq.2 "HTTP/2 200 OK"
+2025-06-03 10:07:31,447 - SupabaseHandler - INFO - Successfully ended session in Supabase: 2
+2025-06-03 10:07:31,447 - SessionManager - INFO - Session ended: 2
+2025-06-03 10:07:31,448 - MainService - INFO - Session command result: Session ended successfully
+2025-06-03 10:07:31,448 - MQTTHandler - INFO - Published response: Session ended successfully
+2025-06-03 10:07:52,122 - MainService - INFO - Handling command: session
+2025-06-03 10:07:52,122 - SupabaseHandler - INFO -  Creating new session in Supabase
+2025-06-03 10:07:52,246 - httpx - INFO - HTTP Request: POST https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session "HTTP/2 201 Created"
+2025-06-03 10:07:52,248 - SupabaseHandler - INFO - Successfully created session in Supabase
+2025-06-03 10:07:52,248 - SessionManager - INFO - Session started with ID: 3
+2025-06-03 10:07:52,248 - MainService - INFO - Session command result: Session started with ID: 3
+2025-06-03 10:07:52,249 - MQTTHandler - INFO - Published response: Session started with ID: 3
+2025-06-03 10:08:42,628 - MainService - INFO - Handling command: capture
+2025-06-03 10:08:42,629 - ImageCapture - ERROR - Camera not initialized
+2025-06-03 10:08:42,629 - MainService - INFO - Capture command result: Failed to capture image
+2025-06-03 10:08:42,632 - MQTTHandler - INFO - Published response: Failed to capture image
+2025-06-03 10:09:12,160 - MainService - INFO - Handling command: session
+2025-06-03 10:09:12,161 - SupabaseHandler - INFO - Ending session in Supabase: 3
+2025-06-03 10:09:12,465 - httpx - INFO - HTTP Request: PATCH https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session?id=eq.3 "HTTP/2 200 OK"
+2025-06-03 10:09:12,467 - SupabaseHandler - INFO - Successfully ended session in Supabase: 3
+2025-06-03 10:09:12,468 - SessionManager - INFO - Session ended: 3
+2025-06-03 10:09:12,468 - MainService - INFO - Session command result: Session ended successfully
+2025-06-03 10:09:12,468 - MQTTHandler - INFO - Published response: Session ended successfully
+2025-06-03 10:11:25,925 - MainService - INFO - Quit command received from keyboard
+2025-06-03 10:11:25,925 - MainService - INFO - Stopping Smart Whiteboard Eraser Service
+2025-06-03 10:11:25,926 - MotorControl - INFO - Motor GPIO pins cleaned up
+2025-06-03 10:11:25,926 - MotorControl - INFO - Motor control stopped
+2025-06-03 10:11:25,927 - ButtonHandler - INFO - GPIO cleaned up
+2025-06-03 10:11:25,927 - MQTTHandler - INFO - Published board status: offline
+2025-06-03 10:11:25,996 - MQTTHandler - INFO - MQTT client disconnected with code Normal disconnection
+2025-06-03 10:11:25,996 - MQTTHandler - INFO - MQTT client stopped successfully
+2025-06-03 10:11:26,060 - QueueUploader - INFO - Upload process stopped
+2025-06-03 10:11:26,060 - SupabaseHandler - INFO - Stopping Supabase handler
+2025-06-03 10:11:26,060 - SupabaseHandler - INFO - Supabase handler stopped
+2025-06-03 10:11:26,071 - MainService - INFO - Log publisher process terminated
+2025-06-03 10:11:26,071 - MainService - INFO - All services stopped
+2025-06-03 10:11:43,136 - MainService - INFO - Initializing Smart Whiteboard Eraser Service
+2025-06-03 10:11:43,136 - SessionManager - INFO - Session manager initialized
+2025-06-03 10:11:43,137 - Camera - INFO - Checking FSWebcam availability...
+2025-06-03 10:11:43,140 - Camera - INFO - FSWebcam binary found
+2025-06-03 10:11:43,168 - Camera - ERROR - FSWebcam is not working correctly
+2025-06-03 10:11:43,169 - ImageCapture - ERROR - Failed to initialize camera
+2025-06-03 10:11:43,171 - MotorControl - INFO - GPIO module loaded successfully for motor control
+2025-06-03 10:11:43,171 - MQTTHandler - INFO - Setting up MQTT client
+2025-06-03 10:11:43,265 - ButtonHandler - INFO - GPIO module loaded successfully
+2025-06-03 10:11:43,266 - MainService - INFO - Starting Smart Whiteboard Eraser Service
+2025-06-03 10:11:43,267 - MainService - INFO - Log publisher started as a background process
+2025-06-03 10:11:43,538 - SupabaseHandler - INFO - Supabase handler started
+2025-06-03 10:11:43,557 - QueueUploader - INFO - Successfully authenticated with Google Drive
+2025-06-03 10:11:43,559 - QueueUploader - INFO - Upload process started
+2025-06-03 10:11:43,789 - MQTTHandler - INFO - MQTT client connected and started
+2025-06-03 10:11:43,790 - ButtonHandler - ERROR - Error setting up GPIO pins: Failed to add edge detection
+2025-06-03 10:11:43,790 - MotorControl - INFO - GPIO setup completed for motor control
+2025-06-03 10:11:43,791 - MotorControl - INFO - Motor control started
+2025-06-03 10:11:43,905 - MQTTHandler - INFO - MQTT client connected with code Success
+2025-06-03 10:11:43,907 - MQTTHandler - INFO - Published board status: online
+2025-06-03 10:11:43,908 - MQTTHandler - INFO - Subscribed to command topic: eraser_1/command
+2025-06-03 10:12:00,951 - MainService - INFO - Handling command: session
+2025-06-03 10:12:00,952 - SupabaseHandler - INFO -  Creating new session in Supabase
+2025-06-03 10:12:01,090 - SupabaseHandler - ERROR - Error creating session in Supabase: name 'started_at' is not defined
+2025-06-03 10:12:01,090 - SessionManager - ERROR - Failed to create session
+2025-06-03 10:12:01,090 - MainService - INFO - Session command result: Failed to create session
+2025-06-03 10:12:01,091 - MQTTHandler - INFO - Published response: Failed to create session
+2025-06-03 10:12:24,929 - MainService - INFO - Quit command received from keyboard
+2025-06-03 10:12:24,929 - MainService - INFO - Stopping Smart Whiteboard Eraser Service
+2025-06-03 10:12:24,930 - MotorControl - INFO - Motor GPIO pins cleaned up
+2025-06-03 10:12:24,931 - MotorControl - INFO - Motor control stopped
+2025-06-03 10:12:24,932 - ButtonHandler - INFO - GPIO cleaned up
+2025-06-03 10:12:24,933 - MQTTHandler - INFO - Published board status: offline
+2025-06-03 10:12:24,997 - MQTTHandler - INFO - MQTT client disconnected with code Normal disconnection
+2025-06-03 10:12:24,998 - MQTTHandler - INFO - MQTT client stopped successfully
+2025-06-03 10:12:25,022 - QueueUploader - INFO - Upload process stopped
+2025-06-03 10:12:25,022 - SupabaseHandler - INFO - Stopping Supabase handler
+2025-06-03 10:12:25,022 - SupabaseHandler - INFO - Supabase handler stopped
+2025-06-03 10:12:25,030 - MainService - INFO - Log publisher process terminated
+2025-06-03 10:12:25,031 - MainService - INFO - All services stopped
+2025-06-03 10:12:28,736 - MainService - INFO - Initializing Smart Whiteboard Eraser Service
+2025-06-03 10:12:28,736 - SessionManager - INFO - Session manager initialized
+2025-06-03 10:12:28,737 - Camera - INFO - Checking FSWebcam availability...
+2025-06-03 10:12:28,740 - Camera - INFO - FSWebcam binary found
+2025-06-03 10:12:28,766 - Camera - ERROR - FSWebcam is not working correctly
+2025-06-03 10:12:28,767 - ImageCapture - ERROR - Failed to initialize camera
+2025-06-03 10:12:28,769 - MotorControl - INFO - GPIO module loaded successfully for motor control
+2025-06-03 10:12:28,769 - MQTTHandler - INFO - Setting up MQTT client
+2025-06-03 10:12:28,863 - ButtonHandler - INFO - GPIO module loaded successfully
+2025-06-03 10:12:28,864 - MainService - INFO - Starting Smart Whiteboard Eraser Service
+2025-06-03 10:12:28,864 - MainService - INFO - Log publisher started as a background process
+2025-06-03 10:12:29,141 - SupabaseHandler - INFO - Supabase handler started
+2025-06-03 10:12:29,152 - QueueUploader - INFO - Successfully authenticated with Google Drive
+2025-06-03 10:12:29,154 - QueueUploader - INFO - Upload process started
+2025-06-03 10:12:29,664 - MQTTHandler - INFO - MQTT client connected and started
+2025-06-03 10:12:29,665 - ButtonHandler - ERROR - Error setting up GPIO pins: Failed to add edge detection
+2025-06-03 10:12:29,666 - MotorControl - INFO - GPIO setup completed for motor control
+2025-06-03 10:12:29,666 - MotorControl - INFO - Motor control started
+2025-06-03 10:12:29,783 - MQTTHandler - INFO - MQTT client connected with code Success
+2025-06-03 10:12:29,783 - MQTTHandler - INFO - Published board status: online
+2025-06-03 10:12:29,784 - MQTTHandler - INFO - Subscribed to command topic: eraser_1/command
+2025-06-03 10:12:39,686 - MainService - INFO - Handling command: session
+2025-06-03 10:12:39,686 - SupabaseHandler - INFO -  Creating new session in Supabase
+2025-06-03 10:12:39,973 - httpx - INFO - HTTP Request: POST https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session "HTTP/2 201 Created"
+2025-06-03 10:12:39,984 - SupabaseHandler - INFO - Successfully created session in Supabase
+2025-06-03 10:12:39,984 - SessionManager - INFO - Session started with ID: 4
+2025-06-03 10:12:39,984 - MainService - INFO - Session command result: Session started with ID: 4
+2025-06-03 10:12:39,985 - MQTTHandler - INFO - Published response: Session started with ID: 4
+2025-06-03 10:13:17,620 - MainService - INFO - Handling command: session
+2025-06-03 10:13:17,621 - SupabaseHandler - INFO - Ending session in Supabase: 4
+2025-06-03 10:13:17,756 - httpx - INFO - HTTP Request: PATCH https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session?id=eq.4 "HTTP/2 200 OK"
+2025-06-03 10:13:17,758 - SupabaseHandler - INFO - Successfully ended session in Supabase: 4
+2025-06-03 10:13:17,758 - SessionManager - INFO - Session ended: 4
+2025-06-03 10:13:17,758 - MainService - INFO - Session command result: Session ended successfully
+2025-06-03 10:13:17,759 - MQTTHandler - INFO - Published response: Session ended successfully
+2025-06-03 10:13:24,061 - MainService - INFO - Handling command: session
+2025-06-03 10:13:24,062 - SupabaseHandler - INFO -  Creating new session in Supabase
+2025-06-03 10:13:24,210 - httpx - INFO - HTTP Request: POST https://ylpomvcmsxqyniwwudav.supabase.co/rest/v1/Session "HTTP/2 201 Created"
+2025-06-03 10:13:24,212 - SupabaseHandler - INFO - Successfully created session in Supabase
+2025-06-03 10:13:24,212 - SessionManager - INFO - Session started with ID: 5
+2025-06-03 10:13:24,213 - MainService - INFO - Session command result: Session started with ID: 5
+2025-06-03 10:13:24,213 - MQTTHandler - INFO - Published response: Session started with ID: 5
+2025-06-03 10:13:35,459 - MainService - INFO - Quit command received from keyboard
+2025-06-03 10:13:35,459 - MainService - INFO - Stopping Smart Whiteboard Eraser Service
+2025-06-03 10:13:35,460 - MotorControl - INFO - Motor GPIO pins cleaned up
+2025-06-03 10:13:35,460 - MotorControl - INFO - Motor control stopped
+2025-06-03 10:13:35,461 - ButtonHandler - INFO - GPIO cleaned up
+2025-06-03 10:13:35,462 - MQTTHandler - INFO - Published board status: offline
+2025-06-03 10:13:35,531 - MQTTHandler - INFO - MQTT client disconnected with code Normal disconnection
+2025-06-03 10:13:35,532 - MQTTHandler - INFO - MQTT client stopped successfully
+2025-06-03 10:13:35,626 - QueueUploader - INFO - Upload process stopped
+2025-06-03 10:13:35,627 - SupabaseHandler - INFO - Stopping Supabase handler
+2025-06-03 10:13:35,627 - SupabaseHandler - INFO - Supabase handler stopped
+2025-06-03 10:13:35,635 - MainService - INFO - Log publisher process terminated
+2025-06-03 10:13:35,636 - MainService - INFO - All services stopped
